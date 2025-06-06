@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charlas Disponibles</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <button class="cambiartema">Cambiar Tema</button>
+    <img src="logo_ucc.png" alt="logo ucc" class="logo" />
+    <div class="container">
+      <h1>Charlas Disponibles</h1>
+      <h2>Charlas disponibles para los estudiantes de la UCC</h2>
+      <div class="fila izquierda">
+        <img
+          src="gestion_tareas.webp"
+          alt="curso de gestión de tareas"
+          class="img"
+        />
+        <div class="charla">
+          <h3>Gestión de tareas para una mayor productividad</h3>
+          <p>Fecha: 23 de Junio</p>
+          <p>
+            "Aprende a organizar tus tareas para sacar el máximo provecho del
+            tiempo"
+          </p>
+        </div>
+      </div>
+      <div class="fila derecha">
+        <img
+          src="ia_curso.jpg"
+          alt="curso de inteligencia artificial"
+          class="img"
+        />
+        <div class="charla">
+          <h3>La IA y su uso correcto académicamente</h3>
+          <p>Fecha: 5 de Julio</p>
+          <p>
+            "Aprende a como usar la IA para tus trabajos de una manera
+            académicamente responsable"
+          </p>
+        </div>
+      </div>
+      <div class="fila izquierda">
+        <img
+          src="prdu_habitos.webp"
+          alt="curso productividad y habitos saludables"
+          class="img"
+        />
+        <div class="charla">
+          <h3>Productividad y hábitos saludables</h3>
+          <p>Fecha: 8 de Agosto</p>
+          <p>
+            "Aprende sobre los hábitos saludables del estudiante y como ser
+            productivos esos días que no queremos salir de la cama"
+          </p>
+        </div>
+      </div>
+      <div class="fila derecha">
+        <img
+          src="economia.jpg"
+          alt="curso economia para estudiantes"
+          class="img"
+        />
+        <div class="charla">
+          <h3>Economía para estudiantes</h3>
+          <p>Fecha: 18 de Agosto</p>
+          <p>
+            "Aprende sobre lo que no te enseñan en el colegio, como abrir una
+            cuenta bancaria, educación financiera y más!"
+          </p>
+        </div>
+      </div>
+      <div class="fila izquierda">
+        <img
+          src="ciberseguridad.jpg"
+          alt="curso de ciberseguridad"
+          class="img"
+        />
+        <div class="charla">
+          <h3>Ciberseguridad para Informáticos</h3>
+          <p>Fecha: 3 de Septiembre</p>
+          <p>
+            "Aprende sobre lo básico para entrar a este mundo maravilloso de la
+            Ciberseguridad (Computadoras requeridas)"
+          </p>
+        </div>
+      </div>
+      <div class="formulario">
+
+      <h3>Formulario de Inscripción a Charlas</h3>
+      <form id="formularioInscripcion">
+        <label for="nombre">Nombre completo:</label><br />
+        <input type="text" id="nombre" name="nombre" required /><br />
+
+        <label for="charla">Charla a la que querés asistir:</label><br />
+        <select id="charla" name="charla" required>
+          <option value="">--Seleccioná una charla--</option>
+          <option value="1">
+            Charla 1: Gestión de tareas para una mayor productividad
+          </option>
+          <option value="2">
+            Charla 2: La IA y su uso correcto académicamente
+          </option>
+          <option value="3">
+            Charla 3: Productividad y hábitos saludables
+          </option>
+          </option>
+          <option value="4">
+            Charla 4: Economía para estudiantes
+          </option>
+          </option>
+          <option value="5">
+            Charla 5: Ciberseguridad para Informáticos
+          </option>
+          </select
+        ><br />
+        <label for="email">Correo electrónico:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <button type="submit">Enviar inscripción</button>
+      </form>
+      </div>
+    </div>
+    <footer>Codificado por: Florencia Rotondi and Guillermo Pernichi</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="stylesheetregister.css" />
+  </head>
+  <body>
+    <div class="cabeza">
+      <img src="logo_ucc.png" alt="logo" class="logo" />
+    </div>
+    <div class="container">
+      <h1>Registro de Usuario</h1>
+      <form id="formularioregistro">
+        <p>
+          Usuario<br />
+          <input
+            type="text"
+            id="nuevoUsuario"
+            placeholder="Indique un usuario"
+            required
+          />
+        </p>
+        <p>
+          Contraseña<br />
+          <input
+            type="password"
+            id="nuevaClave"
+            placeholder="Indique una contraseña"
+            required
+          />
+        </p>
+        <button type="button" onclick="registrar()">Crear cuenta</button>
+      </form>
+      <p>¿Ya tenés cuenta? <a href="index.html">Iniciá sesión acá</a></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

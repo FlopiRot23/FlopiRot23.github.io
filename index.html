@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portal de Charlas - Iniciar Sesión</title>
+    <link rel="stylesheet" href="stylesheetlogin.css" />
+  </head>
+  <body>
+    <div class="cabeza">
+      <img src="logo_ucc.png" alt="logo" class="logo" />
+    </div>
+    <h1 class="container">Portal de Inscripción a Charlas</h1>
+    <div class="container">
+      <p>Iniciar sesión para ver las charlas disponibles y anotarte.</p>
+
+      <form action="home.html" method="get">
+        <p>
+          Usuario
+          <input type="text" id="usuario" placeholder="Indique su usuario" />
+        </p>
+        <p>
+          Contraseña
+          <input type="text" id="clave" placeholder="Indique su contraseña" />
+        </p>
+        <button type="button" onclick="validar()">Entrar</button>
+        <button type="button" onclick="window.location.href='register.html'">
+          Registrarse
+        </button>
+      </form>
+    </div>
+    <iframe
+      src="https://ucc.edu.ar/?gad_source=1&gad_campaignid=21946169904&gclid=CjwKCAjw3f_BBhAPEiwAaA3K5O-IXDwvnWi34MzQh7rhOxrQUZm5Sc2aPBXowaBFXpOka6ox6zeElxoCktUQAvD_BwE"
+      frameborder="3"
+      width="60%"
+      height="500"
+    ></iframe>
+    <script src="script.js"></script>
+  </body>
+</html>
